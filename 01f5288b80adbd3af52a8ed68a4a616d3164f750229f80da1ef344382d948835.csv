@@ -1,0 +1,7 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"API examples","Create a new user and validate the integrity of the data that was sent","SUCCESS","2023-05-07T03:34:17.515706Z[Etc/UTC]","0.0","10.91"
+"API examples","Update an user","SUCCESS","2023-05-07T03:34:28.466888Z[Etc/UTC]","0.0","2.5"
+"Login","Validate the successful login","SUCCESS","2023-05-07T03:34:17.474902Z[Etc/UTC]","0.0","13.59"
+"Login","Validate the unsuccessful login with locked_out_user","SUCCESS","2023-05-07T03:34:31.386138Z[Etc/UTC]","0.0","2.99"
+"Make a purchase","Validate the successful purchase of a random product","SUCCESS","2023-05-07T03:34:37.242023Z[Etc/UTC]","0.0","3.83"
+"Make a purchase","Validate checkout form when empty Zip Code","SUCCESS","2023-05-07T03:34:41.14807Z[Etc/UTC]","0.0","18.06"

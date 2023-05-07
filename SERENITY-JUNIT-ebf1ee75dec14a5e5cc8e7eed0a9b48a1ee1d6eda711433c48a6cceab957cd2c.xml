@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Login" skipped="0" tests="3" time="19.13" timestamp="2023-05-07 03:34:17"><testcase name="Validate the successful login"/><testcase name="Validate the unsuccessful login with locked_out_user"/><testcase name="Validate the unsuccessful login with locked_out_user failed"><failure message="&#10;Expected: a string containing &quot;Sorry, this user has been locked/(&quot;&#10;     but: was &quot;Epic sadface: Sorry, this user has been locked out.&quot;" type="java.lang.AssertionError">
+Expected: a string containing "Sorry, this user has been locked/("
+     but: was "Epic sadface: Sorry, this user has been locked out."</failure><system-err>
+Expected: a string containing "Sorry, this user has been locked/("
+     but: was "Epic sadface: Sorry, this user has been locked out."
+com.victorgallegos.stepdefinitions.front.CommonStepDefinitions.heShoulderrorMessage(CommonStepDefinitions.java:13)
+✽.he should see error message: "Sorry, this user has been locked/("(file:///home/runner/work/Challenge/Challenge/src/test/resources/features/examples/front/login.feature:19)
+</system-err></testcase></testsuite>
