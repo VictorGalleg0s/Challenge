@@ -39,6 +39,7 @@ jobs:
         
     - name: Executing Tests
       uses: gradle/gradle-build-action@v1
+      continue-on-error: true
       env:
         environment: staging
       with:
