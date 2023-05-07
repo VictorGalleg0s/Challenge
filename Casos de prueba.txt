@@ -1,0 +1,78 @@
+Login: Pruebas sobre el login de https://www.saucedemo.com/
+
+Escenario: Logueo exitoso standard_user.
+Dado que como Usuario quiero loguearme
+Cuando ingreso usuario "standard_user" y contraseña "secret_sauce"
+Entonces visualizo la home page
+
+
+Escenario: Logueo con usuario locked_out_user.
+Dado que como Usuario quiero loguearme
+Cuando ingreso usuario "locked_out_user"
+Entonces visualizo mensaje de error "Sorry, this user has been locked out."
+
+
+Escenario: Logueo con contraseña incorrecta.
+Dado que como Usuario quiero loguearme
+Cuando ingreso usuario "standard_user"
+Pero contraseña "secret_saucewe"
+Entonces visualizo mensaje de error "Username and password do not match any user in this service"
+
+Escenario: Logueo sin completar form.
+Dado que como Usuario quiero loguearme
+Cuando no completo ningun dato en el form
+Entonces visualizo mensaje de error "Username is required"
+
+______________________________________________________________________________
+
+Carrito de compras: Pruebas sobre el carrito de compras.
+
+Escenario: Añadir producto/s al carrito de compras
+Dado que como usuario me encuentro en el sistema
+Cuando agrego producto/os al carrito de compras
+Entonces visualizo la cantidad producto/s seleccionado/s
+
+Escenario: Añadir producto/s al carrito y quitarlo/s
+Dado que como usuario me encuentro en el sistema
+Cuando agrego un producto/s al carrito de compras
+Y quito el/los producto/s del carrito
+Entonces visaulizo el carrito sin productos
+
+Escenario: Compra de producto/s exitosa
+Dado que como usuario me encuentro en el sistema
+Cuando añado producto/s al carrito de compras
+Y completo datos solicitados y finalizo la compra
+Entonces visualizo "Gracias por su compra"
+
+Escenario: Compra de producto/s cancelada
+Dado que como usuario me encuentro en el sistema
+Cuando añado producto/s al carrito de compras
+Y completo datos solicitados y cancelo la compra
+Entonces visualizo la vista "Productos"
+
+Escenario: Compra de producto/s sin datos solicitados
+Dado que como usuario me encuentro en el sistema
+Cuando Añado producto/s al carrito de compras
+Y dejo los campos solicitados vacios y presiono en continuar
+Entonces visualizo alerta "Error el nombre es requerido"
+
+Escenario: Compra de producto/s ingresando nombre en datos solicitados
+Dado que como usuario me encuentro en el sistema
+Cuando Añado producto/s al carrito de compras
+Y completo el campo nombre y presiono en continuar
+Entonces visualizo alerta "Error el apellido es requerido"
+
+Escenario: Compra de producto/s ingresando nombre y apellido en datos solicitados
+Dado que como usuario me encuentro en el sistema
+Cuando añado producto/s al carrito de compras
+Y completo el campo nombre y apellido presiono en continuar
+Entonces visualizo alerta "Error el codigo postal es requerido"
+
+Escenario: Compra de producto/s con datos solicitados cancelada
+Dado que como usuario me encuentro en el sistema
+Cuando añado producto/s al carrito de compras
+Y completo los campos requeridos y presiono en cancelar
+Entonces visualizo la vista "Tu carrito"
+
+
+
