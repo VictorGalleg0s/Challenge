@@ -1,4 +1,4 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"Login","Validate the successful login","SUCCESS","2023-05-07T03:34:17.474902Z[Etc/UTC]","0.0","13.59"
-"Login","Validate the unsuccessful login with locked_out_user","SUCCESS","2023-05-07T03:34:31.386138Z[Etc/UTC]","0.0","2.99"
-"Login","Validate the unsuccessful login with locked_out_user failed","FAILURE","2023-05-07T03:34:34.45928Z[Etc/UTC]","0.0","2.55"
+"Login","Validate the successful login","SUCCESS","2023-05-07T03:48:40.127902Z[Etc/UTC]","0.0","12.92"
+"Login","Validate the unsuccessful login with locked_out_user","SUCCESS","2023-05-07T03:48:53.416154Z[Etc/UTC]","0.0","3.02"
+"Login","Validate the unsuccessful login with locked_out_user failed","FAILURE","2023-05-07T03:48:56.52947Z[Etc/UTC]","0.0","4.13"
