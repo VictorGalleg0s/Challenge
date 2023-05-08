@@ -1,3 +1,3 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"Make a purchase","Validate the successful purchase of a random product","SUCCESS","2023-05-07T03:49:00.976036Z[Etc/UTC]","0.0","4.3"
-"Make a purchase","Validate checkout form when empty Zip Code","SUCCESS","2023-05-07T03:49:05.363427Z[Etc/UTC]","0.0","18.68"
+"Make a purchase","Validate the successful purchase of a random product","SUCCESS","2023-05-08T02:13:13.764965Z[Etc/UTC]","0.0","4.06"
+"Make a purchase","Validate checkout form when empty Zip Code","SUCCESS","2023-05-08T02:13:17.908184Z[Etc/UTC]","0.0","18.37"
