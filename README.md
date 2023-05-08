@@ -63,3 +63,6 @@ The report will available at ->
 |           └── serenity
 |               └── index.html
 ```
+
+You will be able to run the suite from the [GitHub Actions](https://github.com/VictorGalleg0s/Challenge/actions/) and the reports will be generated on the github pages,
+you can check them by entering the following link: [Report](https://victorgalleg0s.github.io/Challenge/)

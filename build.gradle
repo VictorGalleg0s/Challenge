@@ -86,7 +86,6 @@ test {
     systemProperty "webdriver.remote.url", System.getProperty("webdriver.remote.url")
     systemProperty "webdriver.remote.driver", System.getProperty("webdriver.remote.driver")
     systemProperty "webdriver.remote.os", System.getProperty("webdriver.remote.os")
-    systemProperty "db.password", System.getProperty("db.password")
 }
 
 
